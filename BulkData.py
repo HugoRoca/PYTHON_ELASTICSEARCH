@@ -4,7 +4,7 @@ import json
 
 es = Elasticsearch([{"host": "localhost", "port": 9200}])
 
-i = 1
+i = 18
 r = requests.get('http://localhost:9200') 
 
 while r.status_code == 200:
